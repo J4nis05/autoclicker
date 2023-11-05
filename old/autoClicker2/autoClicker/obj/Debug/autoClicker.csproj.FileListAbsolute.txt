@@ -1,0 +1,10 @@
+C:\Users\janis.rolli\source\repos\autoClicker\autoClicker\obj\Debug\autoClicker.csprojAssemblyReference.cache
+C:\Users\janis.rolli\source\repos\autoClicker\autoClicker\obj\Debug\autoClicker.Form1.resources
+C:\Users\janis.rolli\source\repos\autoClicker\autoClicker\obj\Debug\autoClicker.Properties.Resources.resources
+C:\Users\janis.rolli\source\repos\autoClicker\autoClicker\obj\Debug\autoClicker.csproj.GenerateResource.cache
+C:\Users\janis.rolli\source\repos\autoClicker\autoClicker\obj\Debug\autoClicker.csproj.CoreCompileInputs.cache
+C:\Users\janis.rolli\source\repos\autoClicker\autoClicker\bin\Debug\autoClicker.exe.config
+C:\Users\janis.rolli\source\repos\autoClicker\autoClicker\bin\Debug\autoClicker.exe
+C:\Users\janis.rolli\source\repos\autoClicker\autoClicker\bin\Debug\autoClicker.pdb
+C:\Users\janis.rolli\source\repos\autoClicker\autoClicker\obj\Debug\autoClicker.exe
+C:\Users\janis.rolli\source\repos\autoClicker\autoClicker\obj\Debug\autoClicker.pdb
