@@ -3,7 +3,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="clr-namespace:AutoClicker.ViewModels"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             mc:Ignorable="d" d:DesignWidth="250" d:DesignHeight="120"
              x:Class="AutoClicker.Views.MainView"
              x:DataType="vm:MainViewModel">
   <Design.DataContext>
@@ -12,5 +12,41 @@
     <vm:MainViewModel />
   </Design.DataContext>
 
-  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+  <!-- <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/> -->
+  
+  <!-- <Button HorizontalAlignment="Center">Calculate</Button> -->
+  <!-- <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"> -->
+  <!--     <TextBlock>1</TextBlock> -->
+  <!--     <TextBlock>2</TextBlock> -->
+  <!-- </StackPanel> -->
+  
+  <!-- <StackPanel> -->
+  <!--     <Border Margin="5"  -->
+  <!--             CornerRadius="25" -->
+  <!--             Background="LightBlue"> -->
+  <!--         <TextBlock Margin="5" -->
+  <!--                    FontSize="18"  -->
+  <!--                    HorizontalAlignment="Center" -->
+  <!--                    Text="Temperature Converter"> -->
+  <!--         </TextBlock> -->
+  <!--     </Border> -->
+  <!--     <StackPanel> -->
+  <!--     </StackPanel>     -->
+  <!--     <Button HorizontalAlignment="Center" CornerRadius="25">Calculate</Button> -->
+  <!-- </StackPanel> -->
+  
+  <Grid ShowGridLines="False"  Margin="5" 
+        ColumnDefinitions="120, 100" 
+        RowDefinitions="Auto, Auto, Auto">
+      
+      <Label Grid.Row="0" Grid.Column="0" Margin="10">Celsius</Label>
+      <TextBox Grid.Row="0" Grid.Column="1" Margin="0 5" Text="0" Name="celsius"/>
+      
+      <Label Grid.Row="1" Grid.Column="0" Margin="10">Fahrenheit</Label>
+      <TextBox Grid.Row="1"  Grid.Column="1" Margin="0 5" Text="0" Name="fahrenheit" IsReadOnly="True"/>
+      
+      <Button Grid.Row="2" Grid.Column="1" Margin="0 5" Click="ButtonClicked">Calculate</Button>
+  </Grid>
+  
+  
 </UserControl>
